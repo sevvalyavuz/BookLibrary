@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WebApplication2.Models;   
+using BookLibrary.Models;   
 
-namespace WebApplication2.Data
+namespace BookLibrary.Data
 {
     public class ApplicationDbContext : DbContext
     {

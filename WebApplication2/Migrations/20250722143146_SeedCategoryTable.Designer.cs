@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WebApplication2.Data;
+using BookLibrary.Data;
 
 #nullable disable
 
-namespace WebApplication2.Migrations
+namespace BookLibrary.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250722143146_SeedCategoryTable")]
@@ -24,7 +24,7 @@ namespace WebApplication2.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("WebApplication2.Models.Category", b =>
+            modelBuilder.Entity("BookLibrary.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
