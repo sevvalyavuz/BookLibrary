@@ -1,5 +1,5 @@
 ﻿
-global using BookLibrary.Data;
+global using BookLibrary.DataAccess;
 global using BookLibrary.Models;
 global using Microsoft.AspNetCore.Mvc;
 global using System.ComponentModel;
